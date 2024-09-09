@@ -1,0 +1,4 @@
+background: #594341;
+    background-image: linear-gradient(0deg, #7d625f 0%, #6d5b59 0%, #654a48 50%, #552925 100%);
+
+border-right: 3px solid #983333;
