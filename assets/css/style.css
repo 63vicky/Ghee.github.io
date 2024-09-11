@@ -158,19 +158,19 @@ p {
 }
 
 *::-moz-selection {
-  background: #7127ea;
+  background: #b2531e;
   color: #ffffff;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background: #7127ea;
+  background: #b2531e;
   color: #ffffff;
   text-shadow: none;
 }
 
 ::selection {
-  background: #7127ea;
+  background: #b2531e;
   color: #ffffff;
   text-shadow: none;
 }
@@ -262,7 +262,7 @@ p {
 }
 
 .theme-color {
-  color: #7127ea;
+  color: #b2531e;
 }
 
 .black-color {
@@ -1348,7 +1348,7 @@ section.about-us .content {
 
 /*CTA Section Css Start Here*/
 .cta-sec {
-  background: url(../img/background.png);
+  background: url(../img/background1.png);
   padding: 80px 0 200px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1445,7 +1445,7 @@ section.about-us .content {
 
 /*Our Product Section Css Start Here*/
 .our-product-sec {
-  background: url(../img/background2.png);
+  background: url(../img/background21.png);
   padding: 80px 0 200px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1565,10 +1565,13 @@ table.table {
 }
 .about-us-con-sec-inner {
   border: 3px solid #e3e3e3;
-  background-color: #f8d83f;
+  background-color: #d79768;
   display: flex;
   flex-direction: column;
   height: 380px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px #000;
+  overflow: auto;
 }
 .about-us-con-sec-inner h2 {
   background-color: #ffffff;
@@ -1579,6 +1582,7 @@ table.table {
   font-weight: 500;
   font-family: 'Rubik';
   text-align: center;
+  border-radius: 50%;
 }
 .about-us-con-sec-inner p {
   padding: 20px 20px;
@@ -1690,7 +1694,7 @@ table.table {
   gap: 20px;
 }
 .contact-form form .form-filed {
-  flex: 0 0 49%;
+  flex: 0 0 48%;
 }
 .contact-form button.btn.btn-primary {
   background: #ed1c24;
@@ -1942,7 +1946,7 @@ section.nutritonal-information-sec h2 {
     margin-bottom: 3px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 576px) {
   .title {
     width: 100%;
   }
@@ -2063,4 +2067,16 @@ section.nutritonal-information-sec h2 {
   .header-contact-info.header-contact-info-2 {
     justify-content: center;
   }
+}
+
+.table-responsive::-webkit-scrollbar,
+.about-us-con-sec-inner::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background-color: #d79768;
+}
+.table-responsive::-webkit-scrollbar-thumb,
+.about-us-con-sec-inner::-webkit-scrollbar-thumb {
+  background-color: whitesmoke;
+  border-radius: 10px;
 }
