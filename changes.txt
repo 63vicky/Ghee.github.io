@@ -1,0 +1,27 @@
+background: #594341;
+    background-image: linear-gradient(0deg, #7d625f 0%, #6d5b59 0%, #654a48 50%, #552925 100%);
+
+border-right: 3px solid #983333;
+
+
+
+
+*********** content ********************
+## **A Little About Us**
+
+**Our Ghee Journey**
+
+At [Your Company Name], we're passionate about bringing you the purest, most authentic ghee, crafted with love and tradition. Our journey began with a simple desire to share the goodness of ghee, a staple in Indian cuisine for centuries.
+
+**Our Commitment to Quality**
+
+We source the finest quality milk from local dairy farms, ensuring that our ghee is made with the freshest and most natural ingredients. Our traditional, handcrafted process involves slow cooking the milk, skimming off the butter, and then clarifying it to produce pure, golden ghee.
+
+**Why Choose Our Ghee?**
+
+* **Purity and Authenticity:** Our ghee is free from artificial additives, preservatives, and hydrogenated oils.
+* **Health Benefits:** Ghee is rich in essential fatty acids, vitamins, and antioxidants, promoting overall health and well-being.
+* **Versatility:** Our ghee can be used in a variety of culinary applications, from cooking and baking to skincare.
+* **Taste and Aroma:** Our ghee has a rich, nutty flavor and a delightful aroma that enhances the taste of any dish.
+
+Join us on our journey to rediscover the timeless goodness of ghee. Taste the difference today!
