@@ -1492,7 +1492,8 @@ section.about-us .content {
 
 /*Inner Page Banner Section Css Start Here*/
 .about-banner {
-  background-image: url(../img/about-banner.png);
+  background-image: url(../img/about-banner1.png);
+  filter: drop-shadow(2px 4px 6px black);
 }
 .quality-banner {
   background-image: url(../img/quality-banner-bg.png);
@@ -1971,7 +1972,7 @@ section.nutritonal-information-sec h2 {
     width: 100%;
   }
   .sidebar__menu .sidebar-toggle-btn:before {
-    content: 'Menu';
+    content: '';
     position: absolute;
     left: 0;
   }
