@@ -203,6 +203,76 @@
           <div class="row">
             <div
               class="col-md-6 col-xl-6 col-lg-6 col-sm-6 col-xs-12"
+              data-aos="fade-left"
+            >
+              <div class="card">
+                <div
+                  class="pro"
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <img
+                    src="./assets/img/products/New/Product2 (1).png"
+                    style="
+                      filter: drop-shadow(2px 4px 6px black);
+                      width: 70%;
+                      margin-right: -50%;
+                    "
+                  />
+                  <img
+                    src="./assets/img/products/New/Product2 (1).png"
+                    style="filter: drop-shadow(2px 4px 6px black); z-index: 10"
+                  /><img
+                    src="./assets/img/products/New/Product2 (1).png"
+                    style="
+                      filter: drop-shadow(2px 4px 6px black);
+                      width: 70%;
+                      margin-left: -50%;
+                    "
+                  />
+                </div>
+                <header>
+                  <div
+                    style="
+                      transition: transform 2s;
+                      font-size: 60px;
+                      color: black;
+                      font-family: 'Big Shoulders Display', cursive;
+                    "
+                  >
+                    <h2 style="line-height: 1; margin: 0; color: white">
+                      TIN PACKING
+                    </h2>
+                    <p
+                      style="
+                        line-height: 1;
+                        margin: 0;
+                        color: black;
+                        font-weight: bold;
+                      "
+                    >
+                      Available Size
+                    </p>
+                    <p
+                      style="
+                        line-height: 1;
+                        margin: 0;
+                        color: black;
+                        font-weight: bold;
+                      "
+                    >
+                      500ml, 1ltr, 2ltr, 5ltr
+                    </p>
+                  </div>
+                </header>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 col-xl-6 col-lg-6 col-sm-6 col-xs-12"
               data-aos="fade-right"
             >
               <div
@@ -290,7 +360,7 @@
               <div class="product-title w-auto">
                 <h2>POUCH PACKING</h2>
                 <p>Available Size</p>
-                <p>500ml / 1Ltr</p>
+                <p>200ml, 500ml, 1Ltr</p>
               </div>
             </div>
             <div
@@ -328,7 +398,7 @@
               <div class="product-title w-auto">
                 <h2>POUCH PACKING</h2>
                 <p>Price Packet</p>
-                <p>10RS / 20RS</p>
+                <p>10RS, 20RS</p>
               </div>
             </div>
             <div
@@ -373,7 +443,116 @@
         </div>
       </section>
       <!-- Product List Section End Here -->
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
+        @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+        .product-title {
+          background: linear-gradient(
+            0deg,
+            #9f6133 0%,
+            #9f6133 0%,
+            #d79768 50%,
+            #9f6133 100%
+          );
+        }
+        .product-img {
+          background: linear-gradient(
+            0deg,
+            #9f6133 0%,
+            #9f6133 0%,
+            #d79768 50%,
+            #9f6133 100%
+          );
+          filter: drop-shadow(2px 4px 6px black);
+          border-radius: 50%;
+          z-index: -1;
+          position: relative;
+        }
+        .card img {
+          border-radius: 50px;
+          opacity: 0.9;
+          transition: 0.5s;
+        }
 
+        .card:hover > p {
+          opacity: 1;
+          transform: scale(1.5);
+          top: 80%;
+        }
+        img:hover .card {
+        }
+        img,
+        #parent {
+          cursor: pointer;
+        }
+        .card:hover > .pro {
+          opacity: 1;
+          transform: scale(1.2);
+        }
+        .card header {
+          position: absolute;
+          top: 75%;
+          left: 0%;
+          padding: 1px;
+          border-radius: 25px;
+          width: 450px;
+          height: 90px;
+          transition: all 0.5s;
+          opacity: 1;
+          z-index: 10;
+          background: linear-gradient(
+            0deg,
+            #9f6133 0%,
+            #9f6133 0%,
+            #d79768 50%,
+            #9f6133 100%
+          );
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .card:hover > header {
+          opacity: 1;
+          width: 450px;
+          height: 90px;
+          transform: translateY(-120px);
+        }
+        .card .pro {
+          transition: all 0.5s;
+        }
+        .card {
+          transition: transform 0.7s;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          border-radius: 50%;
+          margin: auto;
+          text-align: center;
+          font-family: arial;
+          background: linear-gradient(
+            0deg,
+            #9f6133 0%,
+            #9f6133 0%,
+            #d79768 50%,
+            #9f6133 100%
+          );
+          width: 450px;
+          height: 450px;
+          justify-content: center;
+        }
+        .card:hover {
+          transform: scale(1.08);
+        }
+        .centeri {
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          /* bring your own prefixes */
+          transform: translate(-50%, -50%);
+        }
+        span {
+          position: relative;
+        }
+      </style>
       <!-- Nutritonal Information Section Start Here -->
       <section class="nutritonal-information-sec mt-50">
         <div class="container">
