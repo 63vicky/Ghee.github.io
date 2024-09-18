@@ -7,7 +7,7 @@ border-right: 3px solid #983333;
 
 
 *********** content ********************
-## **A Little About Us**
+## **OVERVIEW ABOUT US**
 
 **Our Ghee Journey**
 

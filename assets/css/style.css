@@ -84,8 +84,8 @@ button:focus {
   outline: 0;
   border: 0;
 }
-.contact-form form .form-filed:nth-child(11) {
-  flex: 0 0 100%;
+.contact-form form .form-filed:nth-child(14) {
+  flex: 0 0 98%;
 }
 .uppercase {
   text-transform: uppercase;
@@ -1066,7 +1066,7 @@ li.has-sub > a:after {
   gap: 20px;
 }
 .footer-text.footer-contact-info i {
-  color: #ed1c24;
+  color: #9f6133;
   font-size: 46px;
 }
 .footer-text p {

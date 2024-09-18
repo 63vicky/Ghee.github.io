@@ -184,11 +184,36 @@
       <!-- Form Section Start Here -->
       <section class="form-sec pt-115">
         <div class="container">
-          <div class="contact-form" data-aos="fade-down">
+          <div
+            class="contact-form"
+            style="
+              background: #d79768bb;
+              border-radius: 10px;
+              filter: drop-shadow(2px 4px 6px black);
+              padding: 2rem 1rem;
+              color: white;
+            "
+            data-aos="fade-down"
+          >
             <form
-              action="https://www.swagatghee.com/distributor_mail.php"
+              action="https://api.web3forms.com/submit"
               method="post"
+              style="justify-content: center"
+              id="form"
             >
+              <input
+                type="hidden"
+                name="access_key"
+                value="1b4d43a6-f866-4677-97a9-f4129217e8be"
+              />
+              <input
+                type="hidden"
+                name="from_name"
+                value="Distributor form inquiry"
+              />
+              <!-- Custom URL -->
+              <input type="hidden" name="redirect" value="./thanks.html" />
+
               <div class="form-filed">
                 <label for="party-name" class="form-label">Party Name</label>
                 <input
@@ -363,7 +388,10 @@
             <div class="col-xl-4 col-lg-4 col-md-6">
               <div class="footer-widget mb-30">
                 <div class="footer-text footer-contact-info">
-                  <img src="assets/img/clock.png" />
+                  <img
+                    src="assets/img/clock-rotate-right-icon-svg.svg"
+                    style="width: 50px"
+                  />
                   <p>Open<br /><a href="#">24 x 7</a></p>
                 </div>
               </div>
@@ -374,7 +402,7 @@
     </footer>
     <!-- footer area end -->
 
-    <div class="social-media">
+    <!-- <div class="social-media">
       <ul>
         <li class="fixed-facebook">
           <a
@@ -396,7 +424,7 @@
           ></a>
         </li>
       </ul>
-    </div>
+    </div> -->
 
     <!-- back to top start -->
     <div class="progress-wrap">
@@ -444,6 +472,13 @@
       type="text/javascript"
       src="cdn.jsdelivr.net/gh/michalsnik/aos%402.0.4/dist/aos.js"
     ></script>
+    <script type="text/javascript">
+      window.onload = function () {
+        // Reset the form fields when the page loads
+        document.getElementById('form').reset();
+      };
+    </script>
+
     <script type="text/javascript">
       $(document).ready(function () {
         AOS.init({
