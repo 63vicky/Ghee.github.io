@@ -1753,7 +1753,7 @@ table.table {
   background: url(../img/products/product-bg.png);
   background-size: 100% 100%;
   width: 80%;
-  padding: 60px 60px 90px;
+  padding: 10% 10% 15%;
   margin: 0 auto;
 }
 .product-img img {
