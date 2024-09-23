@@ -218,7 +218,7 @@
                   "
                 >
                   <img
-                    src="./assets/img/products/New/Product1 (1).png"
+                    src="./assets/img/products/New/Product1.png"
                     style="
                       filter: drop-shadow(2px 4px 6px black);
                       width: 65%;
@@ -226,10 +226,10 @@
                     "
                   />
                   <img
-                    src="./assets/img/products/New/Product1 (1).png"
+                    src="./assets/img/products/New/Product1.png"
                     style="filter: drop-shadow(2px 4px 6px black); z-index: 10"
                   /><img
-                    src="./assets/img/products/New/Product1 (1).png"
+                    src="./assets/img/products/New/Product1.png"
                     style="
                       filter: drop-shadow(2px 4px 6px black);
                       width: 65%;
@@ -544,9 +544,9 @@
       </section>
       <!-- Product List Section End Here -->
       <style>
-        @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
-        @import url('https://fonts.googleapis.com/css?family=Montserrat:300&display=swap');
-        @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+        @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
+        @import url("https://fonts.googleapis.com/css?family=Montserrat:300&display=swap");
+        @import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap");
         .product-title {
           background: linear-gradient(
             0deg,
@@ -822,7 +822,7 @@
     </script>
     <script type="text/javascript">
       $(document).ready(function () {
-        var owl = $('#owl-demo');
+        var owl = $("#owl-demo");
         owl.owlCarousel({
           autoPlay: 1500,
           items: 3, //10 items above 1000px browser width
@@ -832,35 +832,35 @@
           itemsMobile: [575, 1], // itemsMobile disabled - inherit from itemsTablet option
           pagination: false,
         });
-        $('.next').click(function () {
-          owl.trigger('owl.next');
+        $(".next").click(function () {
+          owl.trigger("owl.next");
         });
-        $('.prev').click(function () {
-          owl.trigger('owl.prev');
+        $(".prev").click(function () {
+          owl.trigger("owl.prev");
         });
       });
     </script>
     <script type="text/javascript">
       $(document).ready(function () {
-        $('.gallery > div.bg').each(function () {
+        $(".gallery > div.bg").each(function () {
           $(this).wrapAll('<a href="" data-fancybox="gallery"></a>');
         });
-        $('.gallery a').each(function () {
-          var link = $(this).children('.bg').css('background-image');
+        $(".gallery a").each(function () {
+          var link = $(this).children(".bg").css("background-image");
           console.log(link);
-          link = link.replace(/(url\(|\)|")/g, '');
-          $(this).attr('href', link);
+          link = link.replace(/(url\(|\)|")/g, "");
+          $(this).attr("href", link);
         });
-        $('[data-fancybox]').fancybox({
+        $("[data-fancybox]").fancybox({
           loop: true,
           buttons: [
-            'zoom',
-            'share',
-            'slideShow',
-            'fullScreen',
-            'download',
-            'thumbs',
-            'close',
+            "zoom",
+            "share",
+            "slideShow",
+            "fullScreen",
+            "download",
+            "thumbs",
+            "close",
           ],
         });
       });
