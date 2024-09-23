@@ -259,7 +259,7 @@
       <!-- About Section End Here -->
 
       <!-- What Is Ghee Section Start Here -->
-      <section class="what-is-ghee-sec">
+      <section class="what-is-ghee-sec" style="background-image: none">
         <div class="container">
           <div class="sec-title" data-aos="fade-right">
             <h2>ABOUT GHEE</h2>
@@ -485,7 +485,7 @@
     </script>
     <script type="text/javascript">
       $(document).ready(function () {
-        var owl = $('#owl-demo');
+        var owl = $("#owl-demo");
         owl.owlCarousel({
           autoPlay: 1500,
           items: 3, //10 items above 1000px browser width
@@ -495,35 +495,35 @@
           itemsMobile: [575, 1], // itemsMobile disabled - inherit from itemsTablet option
           pagination: false,
         });
-        $('.next').click(function () {
-          owl.trigger('owl.next');
+        $(".next").click(function () {
+          owl.trigger("owl.next");
         });
-        $('.prev').click(function () {
-          owl.trigger('owl.prev');
+        $(".prev").click(function () {
+          owl.trigger("owl.prev");
         });
       });
     </script>
     <script type="text/javascript">
       $(document).ready(function () {
-        $('.gallery > div.bg').each(function () {
+        $(".gallery > div.bg").each(function () {
           $(this).wrapAll('<a href="" data-fancybox="gallery"></a>');
         });
-        $('.gallery a').each(function () {
-          var link = $(this).children('.bg').css('background-image');
+        $(".gallery a").each(function () {
+          var link = $(this).children(".bg").css("background-image");
           console.log(link);
-          link = link.replace(/(url\(|\)|")/g, '');
-          $(this).attr('href', link);
+          link = link.replace(/(url\(|\)|")/g, "");
+          $(this).attr("href", link);
         });
-        $('[data-fancybox]').fancybox({
+        $("[data-fancybox]").fancybox({
           loop: true,
           buttons: [
-            'zoom',
-            'share',
-            'slideShow',
-            'fullScreen',
-            'download',
-            'thumbs',
-            'close',
+            "zoom",
+            "share",
+            "slideShow",
+            "fullScreen",
+            "download",
+            "thumbs",
+            "close",
           ],
         });
       });
