@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Swagat Pure Ghee</title>
+    <title>Sadhvik Pure Ghee</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Place favicon.ico in the root directory -->
@@ -406,30 +406,6 @@
     </footer>
     <!-- footer area end -->
 
-    <!-- <div class="social-media">
-      <ul>
-        <li class="fixed-facebook">
-          <a
-            href="../www.facebook.com/people/Swagat-Product/100065341369174/index.html"
-            ><i class="fa fa-facebook" aria-hidden="true"></i
-          ></a>
-        </li>
-        <li class="fixed-twitter">
-          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        </li>
-        <li class="fixed-youtube">
-          <a href="../www.youtube.com/channel/UCRTGSkeTjgOdlR_Y3D7NjOQ.html"
-            ><i class="fa fa-youtube" aria-hidden="true"></i
-          ></a>
-        </li>
-        <li class="fixed-whatsapp">
-          <a href="../api.whatsapp.com/send1ce4.html?phone=+9199987%2097976"
-            ><i class="fa fa-whatsapp" aria-hidden="true"></i
-          ></a>
-        </li>
-      </ul>
-    </div> -->
-
     <!-- back to top start -->
     <div class="progress-wrap">
       <svg
@@ -485,7 +461,7 @@
     </script>
     <script type="text/javascript">
       $(document).ready(function () {
-        var owl = $("#owl-demo");
+        var owl = $('#owl-demo');
         owl.owlCarousel({
           autoPlay: 1500,
           items: 3, //10 items above 1000px browser width
@@ -495,35 +471,35 @@
           itemsMobile: [575, 1], // itemsMobile disabled - inherit from itemsTablet option
           pagination: false,
         });
-        $(".next").click(function () {
-          owl.trigger("owl.next");
+        $('.next').click(function () {
+          owl.trigger('owl.next');
         });
-        $(".prev").click(function () {
-          owl.trigger("owl.prev");
+        $('.prev').click(function () {
+          owl.trigger('owl.prev');
         });
       });
     </script>
     <script type="text/javascript">
       $(document).ready(function () {
-        $(".gallery > div.bg").each(function () {
+        $('.gallery > div.bg').each(function () {
           $(this).wrapAll('<a href="" data-fancybox="gallery"></a>');
         });
-        $(".gallery a").each(function () {
-          var link = $(this).children(".bg").css("background-image");
+        $('.gallery a').each(function () {
+          var link = $(this).children('.bg').css('background-image');
           console.log(link);
-          link = link.replace(/(url\(|\)|")/g, "");
-          $(this).attr("href", link);
+          link = link.replace(/(url\(|\)|")/g, '');
+          $(this).attr('href', link);
         });
-        $("[data-fancybox]").fancybox({
+        $('[data-fancybox]').fancybox({
           loop: true,
           buttons: [
-            "zoom",
-            "share",
-            "slideShow",
-            "fullScreen",
-            "download",
-            "thumbs",
-            "close",
+            'zoom',
+            'share',
+            'slideShow',
+            'fullScreen',
+            'download',
+            'thumbs',
+            'close',
           ],
         });
       });
