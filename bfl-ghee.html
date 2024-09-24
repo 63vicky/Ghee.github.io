@@ -62,8 +62,8 @@
                   <li>
                     <i class="flaticon-email-marketing"></i>
                     <p>
-                      <a href="mailto:swagatproduct@gmail.com"
-                        >swagatproduct@gmail.com</a
+                      <a href="mailto:sadhvikpureghee@gmail.com"
+                        >sadhvikpureghee@gmail.com</a
                       >
                     </p>
                   </li>
@@ -684,6 +684,11 @@
         </div>
       </section>
       <!-- Nutritonal Information Section End Here -->
+
+      <div
+        class="elfsight-app-29dc51aa-5034-4ec9-b36e-d0bebf7a9029"
+        data-elfsight-app-lazy
+      ></div>
     </main>
 
     <!-- footer area start -->
@@ -703,8 +708,7 @@
                   <p>
                     We’re on Call<br /><a href="tel:+91 9998797976"
                       >+91 9998797976</a
-                    ><a href="tel:+91 9838523222">+91 9838523222</a
-                    ><a href="tel:+91 7016468363">+91 7016468363</a>
+                    ><a href="tel:"></a><a href="tel:"></a>
                   </p>
                 </div>
               </div>
@@ -714,8 +718,9 @@
                 <div class="footer-text footer-contact-info">
                   <i class="flaticon-envelope"></i>
                   <p>
-                    Need Support?<br /><a href="mailto:swagatproduct@gmail.com"
-                      >swagatproduct@gmail.com</a
+                    Need Support?<br /><a
+                      href="mailto:sadhvikpureghee@gmail.com"
+                      >sadhvikpureghee@gmail.com</a
                     >
                   </p>
                 </div>
@@ -834,7 +839,18 @@
             'close',
           ],
         });
+        setInterval(() => {
+          overFlow();
+        }, 100);
       });
+      function overFlow() {
+        if (document.getElementById('__EAAPS_PORTAL').hasChildNodes()) {
+          $('html').css('overflow', 'hidden');
+        } else {
+          $('html').css('overflow', 'auto');
+        }
+      }
     </script>
   </body>
+  <script src="./assets/js/elfsightPlatform.js" async></script>
 </html>

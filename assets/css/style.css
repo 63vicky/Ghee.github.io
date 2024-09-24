@@ -1505,13 +1505,13 @@ section.about-us .content {
   background-image: url(../img/video-banner.png);
 }
 .distributor-banner {
-  background-image: url(../img/distributor-banner.png);
+  background-image: url(../img/about-banner1.png);
 }
 .thankyou-banner {
   background-image: url(../img/thankyou-banner.png);
 }
 .contact-banner {
-  background-image: url(../img/contact-banner.png);
+  background-image: url(../img/about-banner1.png);
 }
 .swagat-cow-ghee-banner {
   background-image: url(../img/products/swagat-cow-ghee-banner.png);
@@ -1698,14 +1698,15 @@ table.table {
   flex: 0 0 48%;
 }
 .contact-form button.btn.btn-primary {
-  background: #ed1c24;
-  border-color: #ed1c24;
+  background: #fff;
+  border-color: #fff;
   border-radius: 30px;
   padding: 10px 57px;
   font-family: 'Rubik';
   font-size: 17px;
   text-transform: uppercase;
   font-weight: 600;
+  color: #000;
 }
 .thank-you-inner img.img-fluid {
   width: 20%;
@@ -1717,9 +1718,16 @@ table.table {
   flex: 0 0 100%;
 }
 .contact-form.contact-form-2 {
-  background: #f8da45;
+  background: linear-gradient(
+    105deg,
+    #9f6133 0%,
+    #9f6133 0%,
+    #d79768 50%,
+    #9f6133 100%
+  );
   padding: 30px 30px;
   border-radius: 20px;
+  color: #fff;
 }
 .contact-info h2 {
   font-size: 30px;
