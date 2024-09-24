@@ -839,7 +839,17 @@
             'close',
           ],
         });
+        setInterval(() => {
+          overFlow();
+        }, 100);
       });
+      function overFlow() {
+        if (document.getElementById('__EAAPS_PORTAL').hasChildNodes()) {
+          $('html').css('overflow', 'hidden');
+        } else {
+          $('html').css('overflow', 'auto');
+        }
+      }
     </script>
 
     <script src="./assets/js/elfsightPlatform.js" async></script>
